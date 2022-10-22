@@ -1,0 +1,25 @@
+PROGRAM 1
+
+i=int(input("ENTER THE LENGTH IN FEET"))
+if i>0:
+  print("THE NUMBER IS POSITIVE")
+  inch=i*12
+  print("INCH IS",inch)
+else:
+  print("NUMBER IS NEGATIVE")
+  
+PROGRAM 2
+
+en=int(input("ENTER EMPLOYEE NO"))
+enm=str(input("ENTER EMPLOYEE NAME"))
+bs=int(input("ENTER BASIC SALARY"))
+if bs>500000:
+  print("SALARY AND ALLOWANCE OF THE EMPLOYEE",(4/100)*bs+bs)
+elif>200000:
+  print("SALARY AND ALLOWANCE OF THE EMPLOYEE",(3/100)*bs+bs)
+elif>10000:
+  print("SALARY AND ALLOWANCE OF THE EMPLOYEE",(2/100)*bs+bs)
+else:
+  print("error")
+  
+  
